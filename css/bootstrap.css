@@ -1728,21 +1728,6 @@ a.text-warning:hover {
     color: #a94442
 }
 
-.text {
-    text-align: center;
-    margin: 0;
-    padding: 15px;
-    font-size: 20px;
-    font-style: oblique;
-}
-
-.text2 {
-    text-align: center;
-    margin: 0;
-    padding: 15px;
-    font-size:x-large;
-}
-
 a.text-danger:focus,
 a.text-danger:hover {
     color: #843534
