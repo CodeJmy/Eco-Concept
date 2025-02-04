@@ -1407,19 +1407,20 @@ textarea {
 
 a {
     color: #337ab7;
-    text-decoration: none
+    text-decoration: none;
+
 }
 
 a:focus,
 a:hover {
     color: #23527c;
-    text-decoration: underline
+    text-decoration: underline;
 }
 
 a:focus {
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px
+    outline-offset: -2px;
 }
 
 figure {
@@ -1608,7 +1609,8 @@ h3 {
 
 .h4,
 h4 {
-    font-size: 18px
+    font-size: 18px;
+    font-weight: bold
 }
 
 .h5,
@@ -1658,7 +1660,8 @@ mark {
 }
 
 .text-center {
-    text-align: center
+    text-align: center;
+    font-size: medium;
 }
 
 .text-justify {
@@ -1725,6 +1728,21 @@ a.text-warning:hover {
     color: #a94442
 }
 
+.text {
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+.text2 {
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+    font-size:x-large;
+}
+
 a.text-danger:focus,
 a.text-danger:hover {
     color: #843534
@@ -1785,7 +1803,15 @@ a.bg-danger:hover {
 ol,
 ul {
     margin-top: 0;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    list-style-type: none;
+    padding-left: 0;
+    text-decoration:underline;
+
+}
+ul:hover {
+    text-decoration: none;
+    cursor: pointer;
 }
 
 ol ol,
@@ -1809,7 +1835,7 @@ ul ul {
 .list-inline>li {
     display: inline-block;
     padding-right: 5px;
-    padding-left: 5px
+    padding-left: 5px;
 }
 
 dl {
