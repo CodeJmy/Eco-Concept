@@ -62,12 +62,12 @@ cite {
     align-items: center;
     margin: 1%;
     padding: 1%;
+
 }
 
 .navbar-header img {
     height: 40px;
-    margin: 10;
-    padding: 10;
+    margin-right: 100px;
 }
 
 .navbar-toggle {
@@ -133,8 +133,11 @@ cite {
 
 #bloc-2-services h2 {
     font-size: 2.5em;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
     color: #d4a373;
+    background-color: #2c3e50;
+    padding: 10px;
+    border-radius: 30px;
 }
 
 #bloc-2-services .col-sm-4 {
@@ -202,8 +205,11 @@ section cite {
 
 #bloc-4-portfolio h2 {
     font-size: 2.5em;
-    margin-bottom: 40px;
-    color: #d4a373; 
+    margin-bottom: 70px;
+    color: #d4a373;
+    background-color: #2c3e50;
+    padding: 10px;
+    border-radius: 30px;
 }
 
 .portfolio-thumb {
@@ -229,14 +235,14 @@ section cite {
 }
 
 #bloc-5-cta h2 {
-    font-size: 1.5em;
-    margin-bottom: 20px;
+    font-size: 1.4em;
+    margin-bottom: 60px;
 }
 
 .cta-hero {
-    background-color: #e0d8c8;
+    background-color: #e0d8c8;;
     color: #2c3e50; 
-    padding: 15px 30px;
+    padding: 10px 20px;
     font-size: 1.2em;
     border-radius: 5px;
     transition: background-color 0.3s ease;
