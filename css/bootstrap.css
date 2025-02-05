@@ -1438,7 +1438,7 @@ img {
 .thumbnail>img {
     display: block;
     max-width: 100%;
-    height: auto
+    height: auto;
 }
 
 .img-rounded {
@@ -1624,7 +1624,7 @@ h6 {
 }
 
 p {
-    margin: 0 0 10px
+    margin: 0px
 }
 
 .lead {
@@ -1993,7 +1993,7 @@ pre code {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
 }
 
 @media (min-width:768px) {
